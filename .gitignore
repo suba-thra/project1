@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+target/
+*.class
+
+# Package locks & builds
+dist/
+build/
+
+# Executables & tools
+*.exe
+*.log
+
+# IDE & system
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Gemini / Antigravity artifacts
+.gemini/
+.agents/
