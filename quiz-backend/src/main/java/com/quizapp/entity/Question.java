@@ -59,6 +59,13 @@ public class Question {
         this.questionType = (questionType != null) ? questionType : "SINGLE_CHOICE";
     }
 
+    public Question(String content, Integer points, String questionType, Quiz quiz) {
+        this.content = content;
+        this.points = (points != null) ? points : 1;
+        this.questionType = (questionType != null) ? questionType : "SINGLE_CHOICE";
+        this.quiz = quiz;
+    }
+
     // Helper methods to maintain bidirectional relationship consistency
     public void addOption(Option option) {
         options.add(option);
